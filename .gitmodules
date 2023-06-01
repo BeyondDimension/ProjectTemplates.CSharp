@@ -1,0 +1,6 @@
+[submodule "ref/DirectoryPackages"]
+	path = ref/DirectoryPackages
+	url = https://github.com/BeyondDimension/DirectoryPackages.git
+[submodule "ref/Common"]
+	path = ref/Common
+	url = https://github.com/BeyondDimension/Common.git
