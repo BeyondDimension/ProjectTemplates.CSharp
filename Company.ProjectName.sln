@@ -34,6 +34,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImplicitUsings", "ImplicitU
 		src\ImplicitUsings.Avalonia.cs = src\ImplicitUsings.Avalonia.cs
 		src\ImplicitUsings.BCL.cs = src\ImplicitUsings.BCL.cs
 		src\ImplicitUsings.Common.cs = src\ImplicitUsings.Common.cs
+		src\ImplicitUsings.Common.Mvvm.cs = src\ImplicitUsings.Common.Mvvm.cs
 		src\ImplicitUsings.Constants.cs = src\ImplicitUsings.Constants.cs
 		src\ImplicitUsings.Controllers.cs = src\ImplicitUsings.Controllers.cs
 		src\ImplicitUsings.Data.cs = src\ImplicitUsings.Data.cs
