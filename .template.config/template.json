@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "BeyondDimension",
+    "classifications": [
+        "Common",
+        "Library"
+    ],
+    "identity": "BeyondDimension.ProjectTemplates.CSharp",
+    "name": "次元超越 CSharp 项目模板",
+    "shortName": "bdcsproj",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "Company.ProjectName",
+    "source": "./",
+    "target": "./"
+}

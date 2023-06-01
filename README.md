@@ -1,5 +1,10 @@
 # Company.ProjectName
 C# 项目模板
+```
+dotnet new install .\
+dotnet new uninstall .\
+dotnet new bdcsproj
+```
 
 ### 📁 项目文件夹结构
 - ```pkg``` Release 配置下生成编译的 nuget 包存放目录
