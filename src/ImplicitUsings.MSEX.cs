@@ -6,6 +6,7 @@
 #pragma warning disable SA1211 // Using alias directives should be ordered alphabetically by alias name
 
 global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Logging.Abstractions;
 global using Microsoft.Extensions.Options;
 global using Microsoft.Extensions.Primitives;
 global using ILogger = Microsoft.Extensions.Logging.ILogger;
