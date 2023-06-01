@@ -96,3 +96,18 @@ global using DateTimeFormat = System.DateTimeFormat;
 global using SerializationDateTimeFormat = System.Runtime.Serialization.DateTimeFormat;
 global using HttpMethod = System.Net.Http.HttpMethod;
 #endif
+
+#if !NETFRAMEWORK && !APP_HOST && !NETFRAMEWORK_SINGLE_FILE && !RES_PROJ
+global using HttpHandlerCategory = System.Net.Http.Client.HttpHandlerCategory;
+global using IHttpClientFactory = System.Net.Http.Client.IHttpClientFactory;
+#endif
+
+#if ANDROID
+global using HttpHandlerType = Xamarin.Android.Net.AndroidMessageHandler;
+#elif IOS || MACCATALYST
+global using HttpHandlerType = System.Net.Http.NSUrlSessionHandler;
+#elif NETFRAMEWORK
+global using HttpHandlerType = System.Net.Http.HttpClientHandler;
+#else
+global using HttpHandlerType = System.Net.Http.SocketsHttpHandler;
+#endif
