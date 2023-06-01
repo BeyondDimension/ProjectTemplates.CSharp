@@ -11,3 +11,4 @@ global using BD.Common.Models;
 global using BD.Common.Models.Abstractions;
 
 global using Company.ProjectName.Primitives.Columns;
+global using Company.ProjectName.Primitives.Enums;
