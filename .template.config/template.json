@@ -13,6 +13,17 @@
         "type": "project"
     },
     "sourceName": "Company.ProjectName",
-    "source": "./",
-    "target": "./"
+    "sources": [
+        {
+            "modifiers": [
+                {
+                    "exclude": [
+                        "**/.vs/**/*",
+                        "**/.git/**/*",
+                        "LICENSE"
+                    ]
+                }
+            ]
+        }
+    ]
 }

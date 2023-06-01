@@ -1,9 +1,22 @@
 # Company.ProjectName
-C# 项目模板
+C# 项目模板  
+
+安装模板
 ```
 dotnet new install .\
+```
+卸载模板
+```
 dotnet new uninstall .\
+```
+根据模板创建项目
+```
+mkdir BD.ProjectName
+cd BD.ProjectName
 dotnet new bdcsproj
+mkdir ref
+cd ref
+git submodule add https://github.com/BeyondDimension/DirectoryPackages.git
 ```
 
 ### 📁 项目文件夹结构
