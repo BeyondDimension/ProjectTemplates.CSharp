@@ -1,0 +1,127 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.ProjectName", "src\Company.ProjectName\Company.ProjectName.csproj", "{02291356-7E6D-469A-9F45-A67DB80BB9DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.ProjectName.UnitTest", "src\Company.ProjectName.UnitTest\Company.ProjectName.UnitTest.csproj", "{1DDCF68C-BE06-4929-A6EC-E3E83932EEEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.ProjectName.Primitives", "src\Company.ProjectName.Primitives\Company.ProjectName.Primitives.csproj", "{F50CED87-F03A-4D15-8332-2810A02EDB42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.ProjectName.Primitives.Models", "src\Company.ProjectName.Primitives.Models\Company.ProjectName.Primitives.Models.csproj", "{95C8E922-212E-406A-84F9-F5E1DD75267C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.ProjectName.Primitives.ViewModels", "src\Company.ProjectName.Primitives.ViewModels\Company.ProjectName.Primitives.ViewModels.csproj", "{AD21E122-C116-4924-9DEE-D84FC60B6EF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Root", "0.Root", "{FC396FC5-0BDC-4C77-849D-8FD99074F944}"
+	ProjectSection(SolutionItems) = preProject
+		src\.editorconfig = src\.editorconfig
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		src\Directory.Build.props = src\Directory.Build.props
+		ref\DirectoryPackages\Directory.Packages.props = ref\DirectoryPackages\Directory.Packages.props
+		src\GeneratePackage.props = src\GeneratePackage.props
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Reference", "1.Reference", "{904DF766-AD89-414F-80E6-9132EBBAFB7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImplicitUsings", "ImplicitUsings", "{1750C2CD-B0D6-4C7C-9D96-5C8C01BDD7AD}"
+	ProjectSection(SolutionItems) = preProject
+		src\ImplicitUsings.AspNetCore.cs = src\ImplicitUsings.AspNetCore.cs
+		src\ImplicitUsings.AutoMapper.cs = src\ImplicitUsings.AutoMapper.cs
+		src\ImplicitUsings.Avalonia.cs = src\ImplicitUsings.Avalonia.cs
+		src\ImplicitUsings.BCL.cs = src\ImplicitUsings.BCL.cs
+		src\ImplicitUsings.Common.cs = src\ImplicitUsings.Common.cs
+		src\ImplicitUsings.Constants.cs = src\ImplicitUsings.Constants.cs
+		src\ImplicitUsings.Controllers.cs = src\ImplicitUsings.Controllers.cs
+		src\ImplicitUsings.Data.cs = src\ImplicitUsings.Data.cs
+		src\ImplicitUsings.EntityFrameworkCore.cs = src\ImplicitUsings.EntityFrameworkCore.cs
+		src\ImplicitUsings.Enums.cs = src\ImplicitUsings.Enums.cs
+		src\ImplicitUsings.Helpers.cs = src\ImplicitUsings.Helpers.cs
+		src\ImplicitUsings.Identity.cs = src\ImplicitUsings.Identity.cs
+		src\ImplicitUsings.JsonProperty.cs = src\ImplicitUsings.JsonProperty.cs
+		src\ImplicitUsings.JWT.cs = src\ImplicitUsings.JWT.cs
+		src\ImplicitUsings.MessagePack.cs = src\ImplicitUsings.MessagePack.cs
+		src\ImplicitUsings.Models.cs = src\ImplicitUsings.Models.cs
+		src\ImplicitUsings.MSEX.cs = src\ImplicitUsings.MSEX.cs
+		src\ImplicitUsings.Nito.cs = src\ImplicitUsings.Nito.cs
+		src\ImplicitUsings.NLog.cs = src\ImplicitUsings.NLog.cs
+		src\ImplicitUsings.Primitives.cs = src\ImplicitUsings.Primitives.cs
+		src\ImplicitUsings.Quartz.cs = src\ImplicitUsings.Quartz.cs
+		src\ImplicitUsings.R.cs = src\ImplicitUsings.R.cs
+		src\ImplicitUsings.ReactiveUI.cs = src\ImplicitUsings.ReactiveUI.cs
+		src\ImplicitUsings.Repositories.cs = src\ImplicitUsings.Repositories.cs
+		src\ImplicitUsings.Services.cs = src\ImplicitUsings.Services.cs
+		src\ImplicitUsings.UnitTest.cs = src\ImplicitUsings.UnitTest.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TFM", "TFM", "{05BF3E9A-D82A-4E0B-A266-7A945AB5F886}"
+	ProjectSection(SolutionItems) = preProject
+		src\TFM_NETX.props = src\TFM_NETX.props
+		src\TFM_NETX_SINGLE.props = src\TFM_NETX_SINGLE.props
+		src\TFM_NETX_WINDOWS.props = src\TFM_NETX_WINDOWS.props
+		src\TFM_NETX_WITH_ALL.props = src\TFM_NETX_WITH_ALL.props
+		src\TFM_NETX_WITH_DESKTOP.props = src\TFM_NETX_WITH_DESKTOP.props
+		src\TFM_NETX_WITH_WINDOWS.props = src\TFM_NETX_WITH_WINDOWS.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{63A5E61A-3840-4099-9CE0-BCB99212F536}"
+	ProjectSection(SolutionItems) = preProject
+		src\AssemblyInfo.cs = src\AssemblyInfo.cs
+		src\Utils.cs = src\Utils.cs
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.ProjectName.Primitives.Resources", "src\Company.ProjectName.Primitives.Resources\Company.ProjectName.Primitives.Resources.csproj", "{05B507C7-25EF-4D27-B562-6AF979003951}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BD.Common", "ref\Common\src\BD.Common\BD.Common.csproj", "{AD65BCA4-3BD3-4032-BA5E-80FB0216CA5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02291356-7E6D-469A-9F45-A67DB80BB9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02291356-7E6D-469A-9F45-A67DB80BB9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02291356-7E6D-469A-9F45-A67DB80BB9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02291356-7E6D-469A-9F45-A67DB80BB9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DDCF68C-BE06-4929-A6EC-E3E83932EEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DDCF68C-BE06-4929-A6EC-E3E83932EEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DDCF68C-BE06-4929-A6EC-E3E83932EEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DDCF68C-BE06-4929-A6EC-E3E83932EEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50CED87-F03A-4D15-8332-2810A02EDB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50CED87-F03A-4D15-8332-2810A02EDB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50CED87-F03A-4D15-8332-2810A02EDB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50CED87-F03A-4D15-8332-2810A02EDB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C8E922-212E-406A-84F9-F5E1DD75267C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C8E922-212E-406A-84F9-F5E1DD75267C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C8E922-212E-406A-84F9-F5E1DD75267C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C8E922-212E-406A-84F9-F5E1DD75267C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD21E122-C116-4924-9DEE-D84FC60B6EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD21E122-C116-4924-9DEE-D84FC60B6EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD21E122-C116-4924-9DEE-D84FC60B6EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD21E122-C116-4924-9DEE-D84FC60B6EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B507C7-25EF-4D27-B562-6AF979003951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B507C7-25EF-4D27-B562-6AF979003951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B507C7-25EF-4D27-B562-6AF979003951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B507C7-25EF-4D27-B562-6AF979003951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD65BCA4-3BD3-4032-BA5E-80FB0216CA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD65BCA4-3BD3-4032-BA5E-80FB0216CA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD65BCA4-3BD3-4032-BA5E-80FB0216CA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD65BCA4-3BD3-4032-BA5E-80FB0216CA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1750C2CD-B0D6-4C7C-9D96-5C8C01BDD7AD} = {63A5E61A-3840-4099-9CE0-BCB99212F536}
+		{05BF3E9A-D82A-4E0B-A266-7A945AB5F886} = {FC396FC5-0BDC-4C77-849D-8FD99074F944}
+		{63A5E61A-3840-4099-9CE0-BCB99212F536} = {FC396FC5-0BDC-4C77-849D-8FD99074F944}
+		{AD65BCA4-3BD3-4032-BA5E-80FB0216CA5C} = {904DF766-AD89-414F-80E6-9132EBBAFB7A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0ED3AAB-A86D-4163-9E1C-0F601DD390B0}
+	EndGlobalSection
+EndGlobal
