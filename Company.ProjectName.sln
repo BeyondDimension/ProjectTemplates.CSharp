@@ -51,7 +51,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImplicitUsings", "ImplicitU
 		src\ImplicitUsings.NLog.cs = src\ImplicitUsings.NLog.cs
 		src\ImplicitUsings.Primitives.cs = src\ImplicitUsings.Primitives.cs
 		src\ImplicitUsings.Quartz.cs = src\ImplicitUsings.Quartz.cs
-		src\ImplicitUsings.R.cs = src\ImplicitUsings.R.cs
 		src\ImplicitUsings.ReactiveUI.cs = src\ImplicitUsings.ReactiveUI.cs
 		src\ImplicitUsings.Repositories.cs = src\ImplicitUsings.Repositories.cs
 		src\ImplicitUsings.Services.cs = src\ImplicitUsings.Services.cs
@@ -73,8 +72,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{63A5E6
 		src\AssemblyInfo.cs = src\AssemblyInfo.cs
 		src\Utils.cs = src\Utils.cs
 	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.ProjectName.Primitives.Resources", "src\Company.ProjectName.Primitives.Resources\Company.ProjectName.Primitives.Resources.csproj", "{05B507C7-25EF-4D27-B562-6AF979003951}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -102,10 +99,6 @@ Global
 		{AD21E122-C116-4924-9DEE-D84FC60B6EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD21E122-C116-4924-9DEE-D84FC60B6EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD21E122-C116-4924-9DEE-D84FC60B6EF4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{05B507C7-25EF-4D27-B562-6AF979003951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05B507C7-25EF-4D27-B562-6AF979003951}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05B507C7-25EF-4D27-B562-6AF979003951}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05B507C7-25EF-4D27-B562-6AF979003951}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
