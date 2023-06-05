@@ -38,6 +38,7 @@
 		<Compile Include="..\ImplicitUsings.Constants.cs">
 			<LinkBase>Properties</LinkBase>
 		</Compile>
+		<Compile Include="..\Utils.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
