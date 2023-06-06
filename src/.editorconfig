@@ -122,7 +122,7 @@ csharp_prefer_static_local_function = true
 csharp_preferred_modifier_order = public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async
 
 # 代码块首选项
-csharp_style_namespace_declarations=file_scoped:suggestion
+csharp_style_namespace_declarations=file_scoped:error
 csharp_prefer_braces = false
 csharp_prefer_simple_using_statement = true
 
@@ -282,7 +282,7 @@ dotnet_diagnostic.SA1633.severity = silent
 dotnet_diagnostic.SA1128.severity = silent
 
 # SA1413: Use trailing comma in multi-line initializers
-dotnet_diagnostic.SA1413.severity = suggestion
+dotnet_diagnostic.SA1413.severity = error
 
 # SA1005: Single line comments should begin with single space
 dotnet_diagnostic.SA1005.severity = none
@@ -482,3 +482,8 @@ dotnet_diagnostic.CS8604.severity = error
 # CA1829: 在可用时使用 Length/Count 属性而不是 Count()
 dotnet_diagnostic.CA1829.severity = error
 
+# CA1846: 首选 “AsSpan” 而不是 “Substring”
+dotnet_diagnostic.CA1846.severity = error
+
+# IDE0057: 使用范围运算符
+dotnet_diagnostic.IDE0057.severity = error
